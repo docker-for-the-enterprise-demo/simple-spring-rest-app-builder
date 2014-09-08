@@ -2,7 +2,6 @@ FROM dockerfile/java:oracle-java8
 
 RUN apt-get update
 
-# Install Java.
 RUN apt-get install -y maven
 
 RUN cd /tmp \ 
